@@ -2,6 +2,7 @@
 @import './header.css';
 @import './buttons.css';
 @import './main.css';
+@import './footer.css';
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700;900&display=swap');
@@ -14,10 +15,17 @@
   border: 0;
   font-size: 100%;
   font: inherit;
-  font-weight: 300;
+  font-weight: 500;
   vertical-align: baseline;
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
+  list-style: none;
+}
+
+body{
+  background-image: url('../images/bolha-background.png');
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .container{
